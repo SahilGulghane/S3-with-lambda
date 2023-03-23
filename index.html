@@ -10,146 +10,33 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet" />
-    <style>
-        #header{
-    width:100%;
-    height: 60px;
-    
-}
-h1{
-    color:rgb(246 27 133);
-    text-align: center;
-    
-}
-
-#social{
-    float:right;
-}
-.fa-brands{
-    margin:5px;
-    font-size:50px;
-}
-
-
-
-
-#search{
-    width: 106%;
-    height: 589px;
-    background-image: url(https://cdn-site-assets.veed.io/MP_3_to_Text_13bc3003c2/MP_3_to_Text_13bc3003c2.png?width=1536&quality=75);
-    background-size: 98% 550px;
-    background-repeat: no-repeat;
-    opacity: 1;
-    
-}
-/* #logo{
-    font-size: 30px;
-    width: 75px;
-    height: 75px;
-    margin-left: 46%;
-    color: aliceblue;
-    background-color:black;
-    padding-bottom: 4px;
-    border-radius: 50%;
-    position: absolute;
-    margin-top: 5%;
-} */
-#logo>span{
-    margin-left:24px ;
-}
-#heading{
-    position: absolute;
-    margin-top: 87px;
-    margin-left: 470px;
-}
-p{
-    font-family: Cormorant;
-    font-size: 1.5rem;
-    font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: .25rem;
-    text-align: left;
-    color: black;
-    
-}
-input[type=submit] {
-    width: 350px;
-    max-width: 100%;
-    color:#444;
-    padding: 5px;
-    background:peachpuff;
-    border-radius: 10px;
-    border: 2px solid pink;
-  } 
- 
-  input[type=file]::file-selector-button {
-    margin-right: 20px;
-    border: 2px solid pink;
-    background:peachpuff;
-    padding: 10px 20px;
-    border-radius: 10px;
-    color:darkblue;
-    cursor: pointer;
-    transition: background .2s ease-in-out;
-  }
-  
-  input[type=file]::file-selector-button:hover {
-    background: #286add;
-  }
-  #one{
-    padding-left: 600px;
-    padding-bottom: 200px;
-  }
-    </style>
+    <link rel="stylesheet" href="index.css">
 
 </head>
 
-<body>
-    <div id="header">
-        <div id="icon">
+<body>   
+             <a id="social" href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
             
-                
+            <a id="social" href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <div id="icon">
+                <h1>Zomato App</h1>
             
         </div>
-        <div id="social">
-            <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=false&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADlxdksBlz6jM8RdlEio_xt2h9qUCKtoTQU&keywords=sahil%20gulghane&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=ddc72d3a-4f37-4e81-9bd8-0a83572a1d09&sid=u%2CL"
-                target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
 
-
-            <a href="https://aws.amazon.com/free/?trk=14a4002d-4936-4343-8211-b5a150ca592b&sc_channel=ps&ef_id=CjwKCAjwq-WgBhBMEiwAzKSH6E3L9dS5Pc_Xd3KRJS_-cVpVqpfs1r48x_vWBQHnhEbeeep4QfJQbRoC7tEQAvD_BwE:G:s&s_kwcid=AL!4422!3!453325184782!e!!g!!aws!10712784856!111477279771"
-                target="_blank">
-                <i class="fa-brands fa-aws"></i>
-            </a>
-        </div>
         <div id="search">
             <div id="logo">
-
+                <span>Z!</span>
             </div>
-            <div id="heading">
-                <p>CONVERT YOUR AUDIO FILE INTO TEXT FILE</p>
-            </div>
+            <div id="heading"></div>
+            <p>Find the best restaurants, cafes and bar</p>
+      
 
         </div>
-        <div id="one">
-            <form action="/success" method="post" enctype="multipart/form-data">
-                <input type="file" name="file" />
-                
-                
-                <input type="submit" value="Upload">
-            </form>
-        </div>
-    
     </div>
-
-
-
-
-
-
 
 
 </body>
